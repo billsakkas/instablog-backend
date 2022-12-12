@@ -43,6 +43,7 @@ Parse.Cloud.define(
   },
   {
     requireUser: true,
+    requireAllUserRoles: ["administrator"],
   }
 );
 
